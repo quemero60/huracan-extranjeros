@@ -1,0 +1,108 @@
+
+body {
+background:url(../img/fondo.JPG); 
+text-align: center;    
+}
+.btn-primary
+ {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: red;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: black;
+  color: white
+}
+.titulo {
+     font-size: 50px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+     color: red;
+}
+.slider {
+     width: 100%;
+     margin: auto;
+     overflow: hidden; 
+}
+.slider ul {
+     display: flex;
+     padding: 0px;
+     width: 1500%;
+
+     animation: cambio 80s infinite /*alternate*/ linear; 
+     animation-timing-function: ease-in;
+
+}
+.slider li {
+     width: 100%;
+     list-style: none;
+}
+.slider img {
+     width: 100%;
+}
+@keyframes cambio {
+     0% {margin-left: 0%;}
+     6% {margin-left: 0%;}
+
+     7% {margin-left:  -100%;}
+     12% {margin-left: -100%;}
+
+     13% {margin-left: -200%;}
+     19% {margin-left: -200%;}
+
+     20% {margin-left: -300%;}
+     26% {margin-left: -300%;}
+     
+     27% {margin-left: -400%;}
+     33% {margin-left: -400%;}
+
+     34% {margin-left: -500%;}
+     40% {margin-left: -500%;}
+
+     41% {margin-left: -600%;}
+     47% {margin-left: -600%;}
+
+     48% {margin-left: -700%;}
+     53% {margin-left: -700%;}
+
+     54% {margin-left: -800%;}
+     59% {margin-left: -800%;}
+
+     60% {margin-left: -900%;}
+     65% {margin-left: -900%;}
+
+     66% {margin-left: -1000%;}
+     71% {margin-left: -1000%;}
+
+     72% {margin-left: -1100%;}
+     77% {margin-left: -1100%;}
+
+     78% {margin-left: -1200%;}
+     85% {margin-left: -1200%;}
+
+     86% {margin-left: -1300%;}
+     92% {margin-left: -1300%;}
+    
+     93% {margin-left: -1400%;}
+     100% {margin-left: -1400%;}
+
+     /*96% {margin-left: -1500%;}
+     100% {margin-left: -1500%;}
+    */
+    }
+
+.table{
+  text-align: center;
+  background-color: grey;
+  font-size: 20px
+  
+}
+
+
+.a {
+  text-align: center;
+  font-size: 25px;
+}
